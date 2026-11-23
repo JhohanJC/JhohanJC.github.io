@@ -80,7 +80,9 @@
         }
     </style>
 </head>
-
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 <body>
 
 <header>
@@ -166,7 +168,7 @@
     </section>
 </main>
 <footer>
-    © 2026 Jhohan JC. Reinforcement Learning Researcher.
+    © <span id="year"></span> Jhohan JC | Reinforcement Learning Research Engineer
 </footer>
 
 </body>
